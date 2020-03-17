@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
                 String getname = idtextview.getText().toString();
                 String getpass = passtextview.getText().toString();
                 if (getname.equals("")){
-                    System.out.println("cl3cl3cl3cl3");
                     Toast.makeText(MainActivity.this, "please input mail", Toast.LENGTH_LONG).show();
                 }else if (!getname.equals("") && getpass.equals("")){
                     Toast.makeText(MainActivity.this, "please input pass", Toast.LENGTH_LONG).show();
@@ -44,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                     if(trigger == false){
                         System.out.println("trigger is "+trigger+ " , getname = "+getname);
                         Toast.makeText(MainActivity.this, "Can't find !!!!",Toast.LENGTH_LONG).show();
+                    }else{
+                        Intent intent = new Intent(MainActivity.this, MainMenu.class);
+                        startActivity(intent);
                     }
 
 
