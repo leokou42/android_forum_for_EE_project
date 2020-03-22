@@ -31,7 +31,7 @@ public class CreateUser extends AppCompatActivity {
                 if (test = false){
                     Toast.makeText(CreateUser.this, "wrong!!!", Toast.LENGTH_LONG).show();
                 }else {
-                    Toast.makeText(CreateUser.this, "OKKKKK!!!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(CreateUser.this, "success!!!", Toast.LENGTH_LONG).show();
                 }
             }
         });
