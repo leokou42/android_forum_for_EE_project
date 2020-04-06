@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="aaaaaaa">AAAAAAA</string>
+    <string name="bbbbbbb">BBBBBBB</string>
+    <string name="ccccccc">CCCCCCC</string>
+    <string name="ddddddd">DDDDDDD</string>
+    <string name="test" />
 </resources>

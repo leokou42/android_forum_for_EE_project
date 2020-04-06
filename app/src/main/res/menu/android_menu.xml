@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn='navigation_view'
+    tools:openDrawer="start">
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idA"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/aaaaaaa" />
+        <item
+            android:id="@+id/idB"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/bbbbbbb"/>
+        <item
+            android:id="@+id/idC"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/ccccccc"/>
+        <item
+            android:id="@+id/idD"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="@string/ddddddd"/>
+    </group>
 </menu>
